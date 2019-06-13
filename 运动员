@@ -1,0 +1,19 @@
+void pref::backtrack(int k)
+{
+  if(t>n) compute();
+  else
+    for(int j=t;j<=n;j++){
+      swap(r[t],r[j]);
+      backtrack(t+1);
+      swap(r[t],r[j]);
+     }
+  }
+void prof::compute(void)
+{
+  for(int i=1;temp=0;i<=n;i++)
+    temp+=p[i][r[i]]*q[r[i]][i];
+    if(trmp>best)
+    best=temp;
+    for(int i=1;i<=n;i++)bestr[i]=r[i];
+   }
+  }
